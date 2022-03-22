@@ -9,12 +9,12 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-from nem import nem
-from amanyum import amanyum
-from karbon import karbon
-from sicaklik import Sicaklik
-from basinc import Basinc
-from metan import metan
+#from nem import nem
+#from amanyum import amanyum
+#from karbon import karbon
+#from sicaklik import Sicaklik
+#from basinc import Basinc
+#from metan import metan
 from rocks_main import backend
 from myviz import myviz
 
@@ -691,18 +691,18 @@ class Ui_MainWindow(object):
         self.sensor_layout.setSpacing(20)
         self.sensor_page = self.sensor_scroll
         self.stackedWidget.addWidget(self.sensor_page)
-        self.dynamic_sensor_graph=Sicaklik(self.sensor_contents)
-        self.dynamic_sensor_graph_2=Basinc(self.sensor_contents)
-        self.dynamic_sensor_graph_3=metan(self.sensor_contents)
-        self.dynamic_sensor_graph_4=karbon(self.sensor_contents)
-        self.dynamic_sensor_graph_5=amanyum(self.sensor_contents)
-        self.dynamic_sensor_graph_6=nem(self.sensor_contents)
-        self.sensor_layout.addWidget(self.dynamic_sensor_graph)
-        self.sensor_layout.addWidget(self.dynamic_sensor_graph_2)
-        self.sensor_layout.addWidget(self.dynamic_sensor_graph_3)
-        self.sensor_layout.addWidget(self.dynamic_sensor_graph_4)
-        self.sensor_layout.addWidget(self.dynamic_sensor_graph_5)
-        self.sensor_layout.addWidget(self.dynamic_sensor_graph_6)
+        #self.dynamic_sensor_graph=Sicaklik(self.sensor_contents)
+        #self.dynamic_sensor_graph_2=Basinc(self.sensor_contents)
+        #self.dynamic_sensor_graph_3=metan(self.sensor_contents)
+        #self.dynamic_sensor_graph_4=karbon(self.sensor_contents)
+        #self.dynamic_sensor_graph_5=amanyum(self.sensor_contents)
+        #self.dynamic_sensor_graph_6=nem(self.sensor_contents)
+        #self.sensor_layout.addWidget(self.dynamic_sensor_graph)
+        #self.sensor_layout.addWidget(self.dynamic_sensor_graph_2)
+        #self.sensor_layout.addWidget(self.dynamic_sensor_graph_3)
+        #self.sensor_layout.addWidget(self.dynamic_sensor_graph_4)
+        #self.sensor_layout.addWidget(self.dynamic_sensor_graph_5)
+        #self.sensor_layout.addWidget(self.dynamic_sensor_graph_6)
 
         
 
@@ -759,7 +759,7 @@ class Ui_MainWindow(object):
         self.label_3 = QtWidgets.QLabel(self.frame_23)
         self.label_3.setFrameShape(QtWidgets.QFrame.Box)
         self.label_3.setText("")
-        self.label_3.setPixmap(QtGui.QPixmap("/home/melikenur/proje2_ws/visi.jpeg"))
+        #self.label_3.setPixmap(QtGui.QPixmap("/home/melikenur/proje2_ws/visi.jpeg"))
         self.label_3.setObjectName("label_3")
         self.label_3.setMaximumSize(703,398)
         self.label_3.setScaledContents(True)
@@ -767,7 +767,7 @@ class Ui_MainWindow(object):
         self.label_4 = QtWidgets.QLabel(self.frame_23)
         self.label_4.setFrameShape(QtWidgets.QFrame.Box)
         self.label_4.setText("")
-        self.label_4.setPixmap(QtGui.QPixmap("/home/melikenur/proje2_ws/visible.png"))
+        #self.label_4.setPixmap(QtGui.QPixmap("/home/melikenur/proje2_ws/visible.png"))
         self.label_4.setMaximumSize(703,398)
         self.label_4.setScaledContents(True)
         self.label_4.setObjectName("label_4")
@@ -798,7 +798,7 @@ class Ui_MainWindow(object):
         self.label_12 = QtWidgets.QLabel(self.frame_24)
         self.label_12.setFrameShape(QtWidgets.QFrame.Box)
         self.label_12.setText("")
-        self.label_12.setPixmap(QtGui.QPixmap("/home/melikenur/proje2_ws/raman.png"))
+        #self.label_12.setPixmap(QtGui.QPixmap("/home/melikenur/proje2_ws/raman.png"))
         self.label_12.setMaximumSize(703,398)
         self.label_12.setScaledContents(True)
         self.label_12.setObjectName("label_12")
